@@ -1,0 +1,4 @@
+Gabriella, 9, 8, 9
+Pedro, 8, 8, 7
+Wallace, 8, 9, 10
+Maria, 3, 4, 6

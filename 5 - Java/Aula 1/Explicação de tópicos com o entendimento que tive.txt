@@ -1,0 +1,15 @@
+Processo de Leitura de arquivo em Java:
+
+A API é feita com a JDK, é compilada e enviada para a IL e logo após é interpretada pela JVM.
+O processo que ela faz é chamado de JIT.
+
+
+
+
+Tipagem Dinamica: As variaveis não tem tipo de dado definido.
+Tipagem Estatica: As variaveis tem um tipo de dado definido.
+Tipagem Forte: Os dados não conseguem ser manipulados facilmente devido seu tipo.
+Tipagem Fraca:Os dados conseguem ser manipulados tão facilmente.
+
+Java SE(Standart Edition)
+CLI(Command Line Interface.)

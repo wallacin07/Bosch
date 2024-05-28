@@ -1,0 +1,3 @@
+1º - codigo não é dinamico
+2º - não é otimizado
+3º - o arquivo vai sempre reescrever o aluno em vez de adicionar um por um

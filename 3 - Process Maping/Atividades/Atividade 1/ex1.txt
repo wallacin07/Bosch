@@ -1,0 +1,37 @@
+INPUT: NOVO PEDIDO CONFIRMADO
+		OUTPUT: PEDIDO ENTREGUE
+		REQUERIMENTOS: MENOS DE 1H
+
+			Fritar batatas - 10min
+			Embalar Sanduíche pronto - 5min
+			Cortar Pão - 5min
+			Pegar Molhos - 5min
+			Empacotar produtos - 5min
+			Pegar Saladas - 5min
+			Preparar Saladas - 5min
+			Preparar Sanduíche - 5min	
+			Embalar Batatas - 5min
+			Assar Hambúrguer na chapa - 20min
+			Transportar pedido - 20min
+		FASE 2
+
+		Agora vocês estarão mexendo com mais de um pedido ao mesmo tempo
+
+		No momento que o tempo do primeiro pedido bater MEIA-HORA
+
+		Será iniciado um SEGUNDO pedido, Note que este pedido também
+
+		Precisa finalizar em UMA hora desde seu início.
+
+		Ou seja, o processo como um todo irá levar 1h e 30min
+
+		Novos Parâmetros: Agora vocês se prepararam, não é mais necessário
+
+		Cortar pão, pegar molhos, pegar saladas. A chapa está pré aquecida
+
+		A primeira assada de carne irá levar 15m e a Segunda 10m
+
+		O responsável pela entrega demora 10m para voltar ao restaurante
+
+		FASE FINAL
+		Desconsidere o tempo exato da chegada de novos pedidos

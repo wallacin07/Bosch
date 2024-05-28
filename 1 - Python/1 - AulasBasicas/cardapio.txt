@@ -1,0 +1,14 @@
+Comidas:
+Hamburguer 20 reais, Hot Dog: 20 reais
+
+Refrigerantes 1l:
+Coca cola 12 reais, Refrigerante Guarana 10 reais
+
+Porcoes:
+Frango 16 reais, Fritas 15 reais
+
+Combos:
+1 - Hamburguer, Refrigerante e Fritas : 38
+2 - Hot Dog, Refrigerante e Frango : 35
+ 
+

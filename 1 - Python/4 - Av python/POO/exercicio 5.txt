@@ -1,0 +1,6 @@
+Classe é uma forma de se referenciar a caracteristicas e funções de algo na vida real, ela visa interpretar tudo possivel atraves de codigo.
+
+Exemplo: classe cachorro:
+
+funçoes: beber agua, latir, comer, dormir, defecar
+caracteristicas: vivo, peludo, possui dono

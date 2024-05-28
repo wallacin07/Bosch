@@ -1,0 +1,5 @@
+Aluno Gabriella : Media 8.7 Resultado : Aprovado! 
+Aluno Pedro : Media 7.7 Resultado : Aprovado! 
+Aluno Wallace : Media 9.0 Resultado : Aprovado! 
+Aluno Maria : Media 4.3 Resultado : Reprovado! 
+A maior media foi de 4.333333333333333 de Maria
