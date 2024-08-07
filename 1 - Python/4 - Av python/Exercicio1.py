@@ -1,11 +1,10 @@
 with open('clientes.txt', 'r') as f:
     for linha in f:
+        print(linha)
         nome = linha.split()
-        for nomes in nome:
-           if  nomes.isalpha:
-               print('um')
-           else:
-               print('dois')
+        
+        # for nomes in nome:
+            # print(nomes)
             # formatado = []
             # formatadadin = nomes.strip()
             # formatado.append(formatadadin)

@@ -1,0 +1,48 @@
+from machine import Pin
+import time
+import network
+import urequests
+import ujson
+
+#Credenciais do WIFI
+nome = "Bobiaram"
+senha = "rapaz401"
+
+# Endereço do firebase
+FIREBASE_URL = "https://iiot-7276b-default-rtdb.firebaseio.com/"
+SECRET_KEY = ""
+
+headers = {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer " + SECRET_KEY
+}
+url = FIREBASE_URL + "/Cristian.json"
+
+
+def conectarWifi():
+    wlan = network.WLAN(network.STA_IF)
+    wlan.active(True)
+    if not wlan.isconnected():
+        print("Conectando no WiFi...")
+        wlan.connect(nome, senha)
+        while not wlan.isconnected():
+            pass
+    print("Wifi conectado... IP: {}".format(wlan.ifconfig()[0]))
+
+def enviarFire(data):
+    response = urequests.put(url, data=ujson.dumps(data), headers=headers)
+    print("Firebase Response:", response.text)
+    response.close()
+    
+    
+def getData():
+    response = urequests.get(url, headers=headers)
+
+    if response.status_code == 200:
+        data = ujson.loads(response.text)
+        print("Firebase Response:", data)
+    else:
+        print("Failed to retrieve data. Status code:", response.status_code)
+    
+    response.close()
+    return data

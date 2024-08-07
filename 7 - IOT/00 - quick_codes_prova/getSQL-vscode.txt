@@ -1,0 +1,9 @@
+def getSQL():
+    server = 'CA-C-00652\\SQLEXPRESS' 
+    database = 'aulaIOT (cr)'
+    cnxn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';DATABASE='+database+';Trusted_Connection=yes')
+    cursor = cnxn.cursor()
+    cursor.execute("SELECT * FROM Sensor")
+    table_mtrz = cursor.fetchall()    # recebe como matriz, cada linha sendo uma coluna do banco de dados
+    
+    return table_mtrz

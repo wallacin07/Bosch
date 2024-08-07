@@ -1,0 +1,3 @@
+Portugues,Oi,Bom dia,Boa noite,Tchau
+Ingles,Hello,Good Morning,Good night,Bye
+Alemao,Oi em alemao,Bom dia em alemao,Boa noite em alemao,Tchau em alemao 

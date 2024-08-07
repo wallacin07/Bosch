@@ -1,0 +1,17 @@
+use Fernando;
+
+--create table colaboradores (EDV int primary key, Nome varchar(60), Idade int, Salario float);
+
+--INSERT INTO colaboradores (EDV, Nome, Idade, Salario) values (1, 'José', 52, 100000.95);
+--INSERT INTO colaboradores (EDV, Nome, Idade, Salario) values (2, 'Maria', 27, 500000.25);
+
+SELECT * from colaboradores;
+
+
+
+
+nome = json.loads(requests.get(url, proxies=proxies).content)['Fernando']
+    dicionario = dict()
+    dicionario = nome
+    print(f"Temperatura: {dicionario['Temperatura']}\nHumidade: {dicionario['Humidade']}\n")
+    time.sleep(2)

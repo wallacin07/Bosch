@@ -1,0 +1,34 @@
+use [aulaIOT (cr)]
+
+--CREATE TABLE Colaboradores (EDV int primary key, Nome varchar(60), idade int, salario float)
+
+--INSERT INTO Colaboradores (EDV, Nome, idade, salario) values (0, 'Neide', 22, 999.99);
+--INSERT INTO Colaboradores (EDV, Nome, idade, salario) values (1, 'Enzo', 83, 1.1);
+--INSERT INTO Colaboradores (EDV, Nome, idade, salario) values (11, 'Helena', 18, 1912.21);
+--INSERT INTO Colaboradores (EDV, Nome, idade, salario) values (10, 'Queila', 24, 10000);
+--INSERT INTO Colaboradores (EDV, Nome, idade, salario) values (12, 'Wallcce', 17, 1912.21);
+--INSERT INTO Colaboradores (EDV, Nome, idade, salario) values (13, 'Kauane', 20, 1912.21);
+--INSERT INTO Colaboradores (EDV, Nome, idade, salario) values (14, 'Matias', 20, 1912.21);
+--INSERT INTO Colaboradores (EDV, Nome, idade, salario) values (15, 'Sampaio', 20, 1912.21);
+--INSERT INTO Colaboradores (EDV, Nome, idade, salario) values (16, 'Yasmin', 19, 1912.21);
+
+
+--INSERT INTO Colaboradores (EDV, Nome, idade, salario) values (0, 'Neide', 22, 999.99);
+
+--VER OS DADOS
+--SELECT nome,idade,salario FROM Colaboradores
+
+--FILTRAR (where)
+--SELECT nome,idade,salario FROM Colaboradores WHERE idade <83;
+
+--ORDENAR (order by)
+--SELECT nome,idade,salario FROM Colaboradores ORDER BY idade
+
+--DEFINIR DADOS (update, set)
+--UPDATE Colaboradores SET salario = 10001.0 WHERE Nome = 'Queila'
+
+--DELETAR TABELA (drop)
+--DROP TABLE Colaboradores
+
+-DELETA ITEM(NS) ESPECIFICOS
+--DELETE FROM Colaboradores WHERE salario < 4000

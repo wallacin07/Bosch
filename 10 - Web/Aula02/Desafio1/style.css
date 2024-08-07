@@ -1,0 +1,36 @@
+.centralize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Titulo
+{
+    color: whitesmoke;
+    background-color: grey;
+}
+
+.maps
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+}
+
+.kauane-que-fez { 
+    display: flex;
+    flex-direction: column;
+}
+
+.iframe {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+fieldset
+{
+    width: 200px;
+    height: 200px;
+}

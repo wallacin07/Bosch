@@ -1,0 +1,20 @@
+import pyodbc
+import time
+import matplotlib.pyplot as plt
+import numpy as np
+import seaborn as sns
+import pandas as pd
+
+
+def insertBD(signal):
+    server = 'CA-C-00652\SQLEXPRESS'
+    database = 'aulaIOT (cr)'
+    cnxn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';DATABASE='+database+';Trusted_Connection=yes')
+    cursor = cnxn.cursor()
+    cursor.execute(f"INSERT Sensor(Temperature, Humidity) VALUES ({signal[0]},{signal[1]})")
+    cursor.commit()
+    print("Sucess!")
+
+def apresent(signal):
+    print(f"Temperatura: {signal[0]}")
+    print(f"Umidade: {signal[1]}")

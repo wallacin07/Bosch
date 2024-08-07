@@ -12,9 +12,5 @@ for i in times:
         segunda.append(timezin[2:].capitalize())
     elif timezin[0] == "3": 
         terceira.append(timezin[2:].capitalize())
-
-
-
-
-
+ 
 print (f'Primeira divisão: {primeira}\nSegunda divisão: {segunda}\nTerceira divisão: {terceira} ')      

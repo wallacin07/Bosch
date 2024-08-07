@@ -1,4 +1,1 @@
 
-Nome:Cristian, Idade: 16, Turma:DTA 1, Planta: Bosch Curitiba
-Nome:Matias, Idade: 19, Turma:DTA 1, Planta: Bosch Curitiba
-Nome:Wallace, Idade: 17, Turma:DTA 1 , Planta: Bosch Curitiba

@@ -1,0 +1,5 @@
+# LEITURA ANALÓGICA
+
+# potente = ADC(Pin(33))
+# potente.width(ADC.WIDTH_12BIT)
+# potente.atten(ADC.ATTN_11DB)

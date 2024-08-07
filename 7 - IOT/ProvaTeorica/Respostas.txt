@@ -1,0 +1,24 @@
+1) I-E
+II - F
+III - D
+IV - B
+V - C
+VI - A
+_______________________________________
+
+2) F-F-V-V 
+_______________________________________
+
+3)
+
+A- A principal diferença entre CC e CA é o fornecimento de energia ao circuito, onde uma é continua e não varia, e outra fica alternando de acordo com a necessidade proposta ao circuito.
+
+B - A corrente alternada pode ser usada em dispositivos como uma placa mae, através de uma fonte, e o motivo é devido ao consumo variavel de energia que o sistema pode consumir, então para nao fornecer uma corrente alta que possa danificar os materiais, superaquecendo os mesmo, ela varia a corrente de acordo com o que cada componente precisa para executar suas tarefas.
+
+C - Um exemplo de utilização da corrente continua pode ser em pequenos leds, como pisca pisca, pois é necessario ter o mesmo de corrente passando em cada um deles para que seja acesso, sem queima - los, ou deixar a luz muito fraca.
+______________________________________
+
+4) A 
+______________________________________
+
+5) A

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!--TODO Metadados servem para auxiliar na procura de dados no site, colocando o que pode ser procurado -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Aula02</title>
+</head>
+<body>
+    <form method="post" action="Index.html">
+
+        <label for="Texto">Texto:</label>
+        <input type="text" name="" id="Texto" value="" placeholder="Digite seu texto aqui &hearts;">
+        <br><br>
+        <select name="Cidades" id="">
+            <option value="sp">São Paulo</option>
+            <option value="rs">Porto Alegre</option>
+            <option value="cwb">Curitiba</option>
+        </select>
+
+        <br><br>
+        <label for="Texto">Observações:</label>
+        <textarea name="" id="" placeholder="Digite suas Observações"></textarea>
+
+        <br><br>
+
+        <fieldset>
+            <legend>jogos</legend>
+            <input type="radio" name="JOGO" id="" value="Valorant" placeholder="" required >Valorant
+            <input type="radio" name="JOGO" id="" value="Minecraft" required>Minecraft
+            <input type="radio" name="JOGO" id="" value="Fortnite" required >Fortnite
+            <input type="radio" name="JOGO" id="" value="Roblox" required>Roblox
+        </fieldset>
+
+        <br><br>
+        <details>
+            <Summary>Jogos</Summary>
+            <p><h4>Valorant</h4>Jogo de fps online que contem poderes pra usar, estilo CSGO com overwatch</p>
+            <p><h4>Minecraft</h4>Jogo de Construção</p>
+            <p><h4>Fortnite</h4>Jogo de fps online que pode construir paredes para se proteger, estilo CSGO com Minecraft</p>
+            <p><h4>Roblox</h4>Jogo de jogos online diversos</p>
+        </details>
+        
+        <br><br>
+
+        <video width="320" height="240">
+            <source src="" type="video/mp4">
+        </video>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/33zilhLm4X0?si=jKIueYsDsNVfxIYG&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="Index2.html" frameborder="2"></iframe>
+        <input type="button" name="botao" value="ok">
+        <br>
+        <input type="color" name="cor" id="Cor">
+        <br>
+        <input type="date" name="data" id="Data">
+        <br>
+        <input type="file" name="arquivo" id="Arquivo">
+        <br>
+        <input type="checkbox" name="OPCAO" id="" value="op1" >
+        <input type="checkbox" name="OPCAO" id="" value="op2" >
+        <input type="checkbox" name="OPCAO" id="" value="op3" >
+        <br>
+        <input type="datetime-local" name="" id="">
+        <br>
+        <input type="email" name="" id="">
+        <br>
+        <input type="password" name="" id="">
+        <br>
+        <input type="radio" name="OPCAO" id="" value="op1" required >
+        <input type="radio" name="OPCAO" id="" value="op2" required>
+        <br>
+        <input type="search" name="" id="" placeholder="Pesquise aqui">
+        <br>
+        <input type="submit" value="Submit">
+        <br>
+        <input type="number" name="" id="">
+        <input type="month" name="" id="">
+        <br><br>
+        <input type="range" name="" id="" max="100" step="10" value="50">
+        <input type="reset" value="Reset">
+        <br><br>
+        <input type="tel" name="" id="" pattern="([0-9] {2}) [0-9] {5} - [0-9]{4}">
+        <!--? Patter serve para definir padroes, se for de A-Z letra maiuscula, so aceitara isso, e de letra minuscula so aceita letra minuscula -->
+    </form>
+    
+
+</body>
+</html>

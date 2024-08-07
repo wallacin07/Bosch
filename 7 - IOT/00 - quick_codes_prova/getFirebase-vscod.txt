@@ -1,0 +1,11 @@
+#GET INTERNET
+proxies = {'https' : "http://disrct:etsps2024401@10.224.200.26:8080"}
+user = 'Cristian'
+url = 'https://iiot-7276b-default-rtdb.firebaseio.com/' + user + '.json'
+
+
+data_json = requests.get(url,proxies=proxies).content
+print(data_json)
+
+var_1 = json.loads(data_json)[''key_1_Firebase']
+var_2 = json.loads(data_json)['key_2_Firebase']

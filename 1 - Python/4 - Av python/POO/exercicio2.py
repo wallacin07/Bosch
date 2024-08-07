@@ -59,7 +59,7 @@ class Livro():
     def mostrar_pagina(self):
         print(self.paginas)    
 
-livro1 = Livro("bela adormecida", "eu", 278)            
+livro1 = Livro("bela adormecida", "eu", 290)            
 while True:
     try:
         
